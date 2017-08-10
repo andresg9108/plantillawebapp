@@ -1,7 +1,10 @@
+.item{
+  padding: 10px;
+  border: 0px;
+  margin: 0px;
+  color: white;
+  background-color: blue;
+}
 .seleccion{
-    padding: 10px;
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-    background-color: red;
+  background-color: red;
 }
