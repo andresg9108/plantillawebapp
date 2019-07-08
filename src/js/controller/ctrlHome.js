@@ -1,4 +1,4 @@
 objA.controller("ctrlInicio",function($scope){
-    $scope.datos = {};
-    $scope.datos.referencia = "Inicio depagina.";
+    $scope.data = {};
+    $scope.data.title = "Homepage";
 });

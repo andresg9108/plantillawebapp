@@ -1,4 +1,4 @@
-var objA = angular.module("mi-app",['ngRoute']);
+var objA = angular.module("myapp",['ngRoute']);
 
 objA.constant("infoGlobal",{//Definiendo Objeto Json visible en toda la aplicación.
     "infoapp":{

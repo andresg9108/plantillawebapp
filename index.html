@@ -14,13 +14,13 @@
         <script src="src/js/controller/ctrlHome.js"></script>
         <script src="src/js/controller/ctrlGallery.js"></script>
     </head>
-    <body ng-app="mi-app" ng-controller="ctrlApp">
-        <a href="#!/" class="item" ng-class="{ selection : esActivo('/') }">Home</a>
-        <a href="#!/gallery" class="item" ng-class="{ selection : esActivo('/gallery') }">Gallery</a>
+    <body ng-app="myapp" ng-controller="ctrlApp">
+        <a href="#!/" class="item" ng-class="{ selection : isActive('/') }">Home</a>
+        <a href="#!/gallery" class="item" ng-class="{ selection : isActive('/gallery') }">Gallery</a>
 
         <br /><br />
 
-        (App: {{name_app}} Version: {{version_app}})
+        (App: {{nameApp}} Version: {{versionApp}})
 
         <br /><br />
 
