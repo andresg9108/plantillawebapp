@@ -1,31 +1,26 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
     <head>
-        <title>Control de Rutas</title>
+        <title>Test AngularJs</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!--Estilos-->
-        <link rel="stylesheet" type="text/css" href="css/principal.css" />
+        <link rel="stylesheet" type="text/css" href="src/css/main.css" />
 
-        <!--Librerias-->
-        <script src="lib/angular/angular/angular.min.js"></script>
-        <script src="lib/angular/angular-route/angular-route.min.js"></script>
-
-        <!--Controladores-->
-        <script src="js/app.js"></script>
-        <script src="js/controllers/ctrlApp.js"></script>
-        <script src="js/controllers/ctrlInicio.js"></script>
-        <script src="js/controllers/ctrlGaleria.js"></script>
+        <script src="node_modules/angular/angular.min.js"></script>
+        <script src="node_modules/angular-route/angular-route.min.js"></script>
+        <script src="src/js/app.js"></script>
+        <script src="src/js/controller/ctrlApp.js"></script>
+        <script src="src/js/controller/ctrlHome.js"></script>
+        <script src="src/js/controller/ctrlGallery.js"></script>
     </head>
     <body ng-app="mi-app" ng-controller="ctrlApp">
-        <a href="#!/" class="item" ng-class="{ seleccion : esActivo('/') }">Inicio</a>
-        <a href="#!/galeria" class="item" ng-class="{ seleccion : esActivo('/galeria') }">Galeria</a>
+        <a href="#!/" class="item" ng-class="{ selection : esActivo('/') }">Home</a>
+        <a href="#!/gallery" class="item" ng-class="{ selection : esActivo('/gallery') }">Gallery</a>
 
         <br /><br />
 
-        (App: {{nombre_app}} Version: {{version_app}})
+        (App: {{name_app}} Version: {{version_app}})
 
         <br /><br />
 

@@ -1,4 +1,10 @@
-﻿# Plantilla Web App
+# Test AngularJs
 
+### Starting:
 
-Plantilla simple para una aplicación web, usando las librerías AngularJS y Rutas de AngularJS
+<ol>
+	<li>Clone the repository.</li>
+	<li>Execute "npm install", in the root of the project.</li>
+	<li>Execute "npm start", in the root of the project.</li>
+	<li>Install and activate LiveReload in Google Chrome</li>
+</ol>

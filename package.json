@@ -1,0 +1,24 @@
+{
+  "name": "testAngularJs",
+  "version": "0.1.0",
+  "description": "In this project we test AngularJs",
+  "scripts": {
+    "start": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andresg9108/testAngularJs"
+  },
+  "author": "Andres Gonzalez",
+  "license": "MIT",
+  "homepage": "https://github.com/andresg9108/testAngularJs",
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-contrib-watch": "^1.1.0",
+    "matchdep": "^2.0.0"
+  },
+  "dependencies": {
+    "angular": "^1.7.8",
+    "angular-route": "^1.7.8"
+  }
+}
